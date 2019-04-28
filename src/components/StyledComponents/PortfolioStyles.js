@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const AllPortfolioItemsWrapper = styled.div`
-  padding-top: 100px;
+  padding-top: 200px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   grid-gap: 50px;

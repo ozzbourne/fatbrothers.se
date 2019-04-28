@@ -1,9 +1,5 @@
 import React from "react"
-import {
-  PortfolioItemWrapper,
-  PortfolioItemInfo,
-} from "./StyledComponents/PortfolioStyles"
-import Img from "gatsby-image"
+import { PortfolioItemWrapper } from "./StyledComponents/PortfolioStyles"
 
 import GatsbyImage from "./queryImages/queryImageFromData"
 
@@ -32,12 +28,12 @@ class PortfolioItem extends React.Component {
           <p>Stack: {desc}</p>
           <p>
             Visit site:{" "}
-            <a href={link} target="_blank" rel="_noopener">
+            <a href={link} target="_blank" rel="noopener noreferrer">
               {linkName}
             </a>
           </p>
           {githubLink !== null ? (
-            <a href={githubLink} target="_blank" rel="_noopener">
+            <a href={githubLink} target="_blank" rel="noopener noreferrer">
               * Git repo
             </a>
           ) : null}

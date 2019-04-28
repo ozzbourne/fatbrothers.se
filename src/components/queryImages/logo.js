@@ -9,7 +9,7 @@ const Logo = ({ className }) => (
         placeholderImage: file(relativePath: { eq: "fb-logo.png" }) {
           childImageSharp {
             fluid(maxWidth: 300) {
-              ...GatsbyImageSharpFluid
+              ...GatsbyImageSharpFluid_noBase64
             }
           }
         }

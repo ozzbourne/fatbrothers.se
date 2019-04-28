@@ -28,7 +28,7 @@ const portfolioItems = {
     // fixa länken nedan när sidan är uppe på netlify. blir https då?
     link: "http://www.fatbrothers.se/",
     linkName: "fatbrothers.se",
-    githubLink: "ComingSoon",
+    githubLink: "https://github.com/ozzbourne/fatbrothers.se",
     primaryColor: "white",
     textColor: "black",
   },
