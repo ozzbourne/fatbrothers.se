@@ -1,0 +1,80 @@
+@font-face {
+  font-family: "Geogrotesque Th";
+  src: url("../fonts/Geogrotesque-Thin.eot");
+  src: url("../fonts/Geogrotesque-Thin.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Geogrotesque-Thin.woff2") format("woff2"),
+    url("../fonts/Geogrotesque-Thin.woff") format("woff"),
+    url("../fonts/Geogrotesque-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Geogrotesque Lg";
+  src: url("../fonts/Geogrotesque-Light.eot");
+  src: url("../fonts/Geogrotesque-Light.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Geogrotesque-Light.woff2") format("woff2"),
+    url("../fonts/Geogrotesque-Light.woff") format("woff"),
+    url("../fonts/Geogrotesque-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Geogrotesque Rg";
+  src: url("../fonts/Geogrotesque-Regular.eot");
+  src: url("../fonts/Geogrotesque-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Geogrotesque-Regular.woff2") format("woff2"),
+    url("../fonts/Geogrotesque-Regular.woff") format("woff"),
+    url("../fonts/Geogrotesque-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Geogrotesque Md";
+  src: url("../fonts/Geogrotesque-Medium.eot");
+  src: url("../fonts/Geogrotesque-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Geogrotesque-Medium.woff2") format("woff2"),
+    url("../fonts/Geogrotesque-Medium.woff") format("woff"),
+    url("../fonts/Geogrotesque-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Geogrotesque Bd";
+  src: url("../fonts/Geogrotesque-Bold.eot");
+  src: url("../fonts/Geogrotesque-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Geogrotesque-Bold.woff2") format("woff2"),
+    url("../fonts/Geogrotesque-Bold.woff") format("woff"),
+    url("../fonts/Geogrotesque-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Geogrotesque UlLg";
+  src: url("../fonts/Geogrotesque-UltraLight.eot");
+  src: url("../fonts/Geogrotesque-UltraLight.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Geogrotesque-UltraLight.woff2") format("woff2"),
+    url("../fonts/Geogrotesque-UltraLight.woff") format("woff"),
+    url("../fonts/Geogrotesque-UltraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Geogrotesque SmBd";
+  src: url("../fonts/Geogrotesque-SemiBold.eot");
+  src: url("../fonts/Geogrotesque-SemiBold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Geogrotesque-SemiBold.woff2") format("woff2"),
+    url("../fonts/Geogrotesque-SemiBold.woff") format("woff"),
+    url("../fonts/Geogrotesque-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
