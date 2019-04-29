@@ -15,10 +15,10 @@ export const HeaderWrapper = styled.div`
   @media only screen and (max-width: 500px) {
     padding-left: 20px;
     padding-right: 20px;
-    height: 64px;
+    height: 90px;
   }
 `
-export const StyledMobileMenu = styled.div`
+export const StyledMenu = styled.div`
   .bm-item {
     text-align: center;
     display: inline-block;

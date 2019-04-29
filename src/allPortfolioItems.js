@@ -1,7 +1,7 @@
 const portfolioItems = {
   item1: {
     name: "Brickland",
-    image: "brickland-long.jpg",
+    image: "brickland.jpg",
     desc: "Wordpress",
     link: "http://brickland.se/",
     linkName: "brickland.se",
@@ -12,7 +12,7 @@ const portfolioItems = {
 
   item2: {
     name: "Kid Pilot",
-    image: "kidpilot-long.jpg",
+    image: "kidpilot.jpg",
     desc: "GatsbyJS",
     link: "https://wearekidpilot.com/",
     linkName: "wearekidpilot.com",
@@ -23,7 +23,7 @@ const portfolioItems = {
 
   item3: {
     name: "Fat Brothers",
-    image: "fatbrothers-long.jpg",
+    image: "fatbrothers.jpg",
     desc: "GatsbyJS",
     // fixa länken nedan när sidan är uppe på netlify. blir https då?
     link: "http://www.fatbrothers.se/",
@@ -34,52 +34,34 @@ const portfolioItems = {
   },
 
   item4: {
-    name: "Mahi Mahi",
-    image: "brickland-long.jpg",
-    desc:
-      "Lean flesh with a mild, sweet flavor profile, moderately firm texture and large, moist flakes. ",
+    name: "Uppochpaddla",
+    image: "uppochpaddla.jpg",
+    desc: "Wordpress, WooCommerce",
+    link: "https://www.uppochpaddla.se/",
+    linkName: "uppochpaddla.se",
     githubLink: null,
-    primaryColor: "orange",
-    textColor: "blue",
+    primaryColor: "#535F46",
+    textColor: "white",
   },
-
   item5: {
-    name: "King Crab",
-    image: "/images/crab.jpg",
-    desc:
-      "Crack these open and enjoy them plain or with one of our cocktail sauces",
+    name: "Lapplands Djurklinik",
+    image: "lapplandsdjurklinik.jpg",
+    desc: "Wordpress",
+    link: "http://www.lapplandsdjurklinik.se/",
+    linkName: "lapplandsdjurklinik.se",
     githubLink: null,
-    primaryColor: "white",
+    primaryColor: "#FDF9FA",
     textColor: "black",
   },
-
   item6: {
-    name: "Atlantic Salmon",
-    image: "/images/salmon.jpg",
-    desc:
-      "This flaky, oily salmon is truly the king of the sea. Bake it, grill it, broil it...as good as it gets!",
+    name: "Camp Ripan",
+    image: "CampRipan.jpg",
+    desc: "HTML, CSS",
+    link: "https://ripan-matmeny.netlify.com/",
+    linkName: "ripan-matmeny.netlify.com",
     githubLink: null,
-    primaryColor: "black",
+    primaryColor: "#231F1C",
     textColor: "white",
-  },
-
-  item7: {
-    name: "Oysters",
-    image: "/images/oysters.jpg",
-    desc: "A soft plump oyster with a sweet salty flavor and a clean finish.",
-    githubLink: null,
-    primaryColor: "green",
-    textColor: "white",
-  },
-
-  item8: {
-    name: "Mussels",
-    image: "/images/mussels.jpg",
-    desc:
-      "The best mussels from the Pacific Northwest with a full-flavored and complex taste.",
-    githubLink: null,
-    primaryColor: "pink",
-    textColor: "black",
   },
 }
 

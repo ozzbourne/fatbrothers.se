@@ -3,6 +3,7 @@ import PropTypes from "prop-types"
 import { PageWrapper } from "./StyledComponents/PageWideStyles"
 
 import Header from "./header"
+import Footer from "./footer"
 import "./layout.css"
 import "./CustomStyles.css"
 
@@ -12,6 +13,7 @@ const Layout = ({ children }) => (
     <PageWrapper>
       <main>{children}</main>
     </PageWrapper>
+    <Footer />
   </div>
 )
 

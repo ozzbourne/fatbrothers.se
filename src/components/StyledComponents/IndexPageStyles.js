@@ -12,6 +12,6 @@ export const IndexPageWrapper = styled.div`
 den här nedan måste man i den komponenten ta emot ett 
 className så det kan nå dit den ska */
 export const StyledLogo = styled(Logo)`
-  width: 500px;
+  max-width: 500px;
   margin: 0 auto;
 `

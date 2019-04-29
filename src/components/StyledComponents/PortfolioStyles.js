@@ -3,10 +3,14 @@ import styled from "styled-components"
 export const AllPortfolioItemsWrapper = styled.div`
   padding-top: 200px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  /* grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); */
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 50px;
   @media (max-width: 1370px) {
     padding-top: 150px;
+  }
+  @media (max-width: 889px) {
+    grid-gap: 25px;
   }
 `
 
@@ -27,11 +31,41 @@ export const PortfolioItemWrapper = styled.div`
     text-align: center;
     font-family: "Geogrotesque SmBd", "Gill Sans", "Gill Sans MT", Calibri,
       "Trebuchet MS", sans-serif;
+    @media (max-width: 915px) {
+      * {
+        margin-bottom: 7px;
+      }
+      h3 {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+      p,
+      a {
+        font-size: 14px;
+      }
+    }
+    @media (max-width: 533px) {
+      * {
+        margin-bottom: 0;
+      }
+    }
+    @media (max-width: 400px) {
+      h3 {
+        font-size: 14px;
+        margin-bottom: 5px;
+      }
+      p,
+      a {
+        font-size: 10px;
+        line-height: 20px;
+      }
+    }
     h3 {
       font-family: "Geogrotesque SmBd", "Gill Sans", "Gill Sans MT", Calibri,
         "Trebuchet MS", sans-serif;
     }
     a {
+      margin-bottom: 0;
       color: ${props => props.textColor};
       text-decoration: none;
       display: inline-block;

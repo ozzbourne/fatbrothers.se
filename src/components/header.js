@@ -1,10 +1,10 @@
 import React from "react"
-import MobileMenu from "./MobileMenu"
+import Menu from "./MobileMenu"
 import { HeaderWrapper } from "./StyledComponents/MenuStyles"
 
 const Header = () => (
   <HeaderWrapper>
-    <MobileMenu />
+    <Menu />
   </HeaderWrapper>
 )
 

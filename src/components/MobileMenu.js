@@ -1,12 +1,12 @@
 import React from "react"
 import { Link } from "gatsby"
 import { slide as Menu } from "react-burger-menu"
-import { StyledMobileMenu } from "./StyledComponents/MenuStyles"
+import { StyledMenu } from "./StyledComponents/MenuStyles"
 
 class MobileMenu extends React.Component {
   render() {
     return (
-      <StyledMobileMenu>
+      <StyledMenu>
         <Menu
           right
           // pageWrapId={"page-wrap"}
@@ -16,7 +16,7 @@ class MobileMenu extends React.Component {
           <Link to="/portfolio">Portfolio</Link>
           <a href="/contact">Portalen</a>
         </Menu>
-      </StyledMobileMenu>
+      </StyledMenu>
     )
   }
 }
