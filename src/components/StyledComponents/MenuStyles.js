@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import Logo from "../queryImages/logo"
 
 /* Menu styles */
 export const HeaderWrapper = styled.div`
@@ -8,27 +9,42 @@ export const HeaderWrapper = styled.div`
   top: 0;
   z-index: 1;
   height: 100px;
-  @media (max-width: 1370px) {
-    background: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  }
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   @media only screen and (max-width: 500px) {
     padding-left: 20px;
     padding-right: 20px;
     height: 90px;
   }
 `
+
+/*När man hämtar in en komponent som här ovan och stilar 
+den här nedan måste man i den komponenten ta emot ett 
+className så det kan nå dit den ska */
+export const StyledLogo = styled(Logo)`
+  max-width: 250px;
+  /* margin: 0 auto; */
+  img {
+    position: fixed !important;
+    height: auto !important;
+    width: 250px !important;
+    top: 27px !important;
+    left: 27px !important;
+    transition: all 0.5s !important;
+    @media only screen and (max-width: 500px) {
+      width: 170px !important;
+      top: 33px !important;
+    }
+  }
+`
+
 export const StyledMenu = styled.div`
   .bm-item {
     text-align: center;
-    display: inline-block;
     text-decoration: none;
     color: black;
-    transition: color 0.2s;
+    transition: all 0.2s;
     outline: 0;
-    margin: 0;
-    padding: 4px 0px;
-    line-height: 1.5em;
     text-align: left;
     font-family: "Geogrotesque SmBd", "Gill Sans", "Gill Sans MT", Calibri,
       "Trebuchet MS", sans-serif;
@@ -37,7 +53,8 @@ export const StyledMenu = styled.div`
     transform: scale(0.8, 1);
   }
   .bm-item:hover {
-    color: blue;
+    color: pink;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
   }
   .bm-burger-button {
     position: fixed;
@@ -92,9 +109,8 @@ export const StyledMenu = styled.div`
     color: #b8b7ad;
     padding-top: 100px;
     a {
-      display: inline-block;
       padding: 0;
-      margin: 4px 0;
+      margin: 30px 0;
     }
   }
 

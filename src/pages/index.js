@@ -10,10 +10,7 @@ import {
 /* ToDo: fixa react helmet */
 const IndexPage = () => (
   <Layout>
-    <Header />
-    <IndexPageWrapper>
-      <StyledLogo />
-    </IndexPageWrapper>
+    <IndexPageWrapper>{/* <StyledLogo /> */}</IndexPageWrapper>
   </Layout>
 )
 

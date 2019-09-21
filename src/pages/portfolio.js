@@ -18,7 +18,6 @@ class PortfolioPage extends React.Component {
   render() {
     return (
       <Layout>
-        <Header />
         <AllPortfolioItemsWrapper>
           {Object.keys(this.state.portfolioItems).map(key => (
             <PortfolioItem

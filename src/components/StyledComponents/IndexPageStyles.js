@@ -1,17 +1,8 @@
 import styled from "styled-components"
-import Logo from "../queryImages/logo"
 
 export const IndexPageWrapper = styled.div`
   padding-top: 100px;
   @media (max-width: 1370px) {
     padding-top: 150px;
   }
-`
-
-/*När man hämtar in en komponent som här ovan och stilar 
-den här nedan måste man i den komponenten ta emot ett 
-className så det kan nå dit den ska */
-export const StyledLogo = styled(Logo)`
-  max-width: 500px;
-  margin: 0 auto;
 `

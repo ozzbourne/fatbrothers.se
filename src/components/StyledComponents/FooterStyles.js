@@ -3,8 +3,10 @@ import styled from "styled-components"
 export const StyledFooter = styled.div`
   text-align: center;
   background: #f9f9f9;
-  margin-top: 100px;
-  padding: 70px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   a {
     font-family: "Geogrotesque Rg", "Gill Sans", "Gill Sans MT", Calibri,
       "Trebuchet MS", sans-serif;

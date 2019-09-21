@@ -2,11 +2,13 @@ import React from "react"
 import { Link } from "gatsby"
 import { slide as Menu } from "react-burger-menu"
 import { StyledMenu } from "./StyledComponents/MenuStyles"
+import { StyledLogo } from "./StyledComponents/IndexPageStyles"
 
 class MobileMenu extends React.Component {
   render() {
     return (
       <StyledMenu>
+        {/* <StyledLogo /> */}
         <Menu
           right
           // pageWrapId={"page-wrap"}

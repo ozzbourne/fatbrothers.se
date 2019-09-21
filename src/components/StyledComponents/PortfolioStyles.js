@@ -29,40 +29,14 @@ export const PortfolioItemWrapper = styled.div`
     overflow-y: hidden;
     padding: 12px;
     text-align: center;
-    font-family: "Geogrotesque SmBd", "Gill Sans", "Gill Sans MT", Calibri,
+    font-family: "Geogrotesque Rg", "Gill Sans", "Gill Sans MT", Calibri,
       "Trebuchet MS", sans-serif;
-    @media (max-width: 915px) {
-      * {
-        margin-bottom: 7px;
-      }
-      h3 {
-        font-size: 18px;
-        margin-bottom: 10px;
-      }
-      p,
-      a {
-        font-size: 14px;
-      }
-    }
-    @media (max-width: 533px) {
-      * {
-        margin-bottom: 0;
-      }
-    }
-    @media (max-width: 400px) {
-      h3 {
-        font-size: 14px;
-        margin-bottom: 5px;
-      }
-      p,
-      a {
-        font-size: 10px;
-        line-height: 20px;
-      }
-    }
     h3 {
       font-family: "Geogrotesque SmBd", "Gill Sans", "Gill Sans MT", Calibri,
         "Trebuchet MS", sans-serif;
+    }
+    p {
+      margin-bottom: 8px;
     }
     a {
       margin-bottom: 0;
@@ -81,10 +55,37 @@ export const PortfolioItemWrapper = styled.div`
         background: ${props => props.textColor};
         transition: width 0.3s ease 0s, left 0.3s ease 0s;
         width: 0;
+        @media (max-width: 915px) {
+          height: 1px;
+        }
       }
       :hover:after {
         width: 100%;
         left: 0;
+      }
+    }
+    @media (max-width: 915px) {
+      h3 {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+      p,
+      a {
+        font-size: 14px;
+        line-height: 18px;
+        /* margin-bottom: 0px; */
+      }
+    }
+    @media (max-width: 400px) {
+      h3 {
+        font-size: 14px;
+        margin-bottom: 5px;
+      }
+      p,
+      a {
+        font-size: 8px;
+        line-height: 14px;
+        margin-bottom: 2px;
       }
     }
   }

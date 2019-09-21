@@ -33,9 +33,11 @@ class PortfolioItem extends React.Component {
             </a>
           </p>
           {githubLink !== null ? (
-            <a href={githubLink} target="_blank" rel="noopener noreferrer">
-              * Git repo
-            </a>
+            <p>
+              <a href={githubLink} target="_blank" rel="noopener noreferrer">
+                * Git repo
+              </a>
+            </p>
           ) : null}
         </div>
       </PortfolioItemWrapper>
