@@ -8,8 +8,8 @@ const Logo = ({ className }) => (
       query {
         placeholderImage: file(relativePath: { eq: "fb-logo.png" }) {
           childImageSharp {
-            fluid(maxWidth: 300) {
-              ...GatsbyImageSharpFluid_noBase64
+            fixed(width: 300) {
+              ...GatsbyImageSharpFixed_noBase64
             }
           }
         }
@@ -18,7 +18,7 @@ const Logo = ({ className }) => (
     render={data => (
       <Img
         className={className}
-        fluid={data.placeholderImage.childImageSharp.fluid}
+        fixed={data.placeholderImage.childImageSharp.fixed}
       />
     )}
   />
