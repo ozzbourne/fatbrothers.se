@@ -33,7 +33,7 @@ const PortfolioPage = () => (
 function aFunction(data) {
   const stiff = []
   data.allPortfolioJson.edges.forEach(({ node }) => {
-    stiff.push(<p key={node.title}>{node.title}</p>)
+    stiff.push(<p key={node.title}>{node.title} </p>)
   })
   return stiff
 }
