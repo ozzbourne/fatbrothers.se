@@ -4,7 +4,7 @@ backend:
 site_url: https://fatbrothers.netlify.com/
 publish_mode: editorial_workflow
 media_folder: "src/images"
-public_folder: "/"
+public_folder: ""
 collections:
   - name: "portfolio" # Used in routes, e.g., /admin/collections/blog
     label: "Portfolio Items" # Used in the UI
@@ -25,7 +25,7 @@ collections:
           label: "Unique ID",
           name: "id",
           widget: "string",
-          hint: "Used for interating",
+          hint: "Used for interating, needs to be unique",
         }
       - { label: "Tech used", name: "stack", widget: "string" }
       - {
@@ -33,5 +33,29 @@ collections:
           name: "link",
           widget: "string",
           hint: "Link to the website",
+        }
+      - {
+          label: "Linkname",
+          name: "linkname",
+          widget: "string",
+          hint: "Example: skose.com",
+        }
+      - {
+          label: "Link to git-repo",
+          name: "git-link",
+          widget: "string",
+          hint: "If none, put 'no' (small letters only)",
+        }
+      - {
+          label: "Primary HexColor",
+          name: "color",
+          widget: "string",
+          hint: "Valid hex-value is '#45565D' or '#fff'",
+        }
+      - {
+          label: "Text Color",
+          name: "text-color",
+          widget: "string",
+          hint: "Text-color, make sure it matched the color above",
         }
       - { label: "Image", name: "image", widget: "image" }
