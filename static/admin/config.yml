@@ -16,16 +16,16 @@ collections:
     slug: "portfolioItem-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {
-          label: "Title",
+          label: "Identifier",
           name: "title",
           widget: "string",
-          hint: "Name of project",
+          hint: "Name of project, add unique prefix (#3 + name), example '#3 brickland' if that is the third entry",
         }
       - {
-          label: "Unique ID",
-          name: "id",
+          label: "Project Name",
+          name: "project-title",
           widget: "string",
-          hint: "Used for interating, needs to be unique",
+          hint: "The project title to be displayen on site",
         }
       - { label: "Tech used", name: "stack", widget: "string" }
       - {
