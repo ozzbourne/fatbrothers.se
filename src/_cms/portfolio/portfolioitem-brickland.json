@@ -1,7 +1,11 @@
 {
-  "title": "Brickland",
-  "id": "2",
+  "color": "#45565D",
+  "linkname": "brickland.se",
   "stack": "Wordpress",
-  "link": "www.angered.se",
-  "image": "/brickland.jpg"
+  "gitLink": "no",
+  "textColor": "white",
+  "title": "#1 brickland",
+  "link": "http://brickland.se",
+  "image": "/src/images/brickland.jpg",
+  "projectTitle": "Brickland"
 }
