@@ -15,6 +15,14 @@ collections:
     fields: # The fields for each document, usually in front matter
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
       - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Unique ID",
+          name: "id",
+          widget: "relation",
+          collection: "ids",
+          searchFields: "id",
+          valueField: "id",
+        }
       - { label: "Featured Image", name: "thumbnail", widget: "image" }
       - {
           label: "Rating (scale of 1-5)",
